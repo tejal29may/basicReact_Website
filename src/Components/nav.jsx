@@ -22,7 +22,7 @@ const Nav = () => {
         </div>
         <div className='menu'>
             <ul className={menuopen?"open":""}>
-                {/* <li ><a href="./" style={{color:"rgb(59 130 246)"}}>Home</a></li> */}
+               
                 <li> <Link style={{color:"rgb(59 130 246)"}} to="/">Home</Link></li>
                 <li> <NavLink to="/quotes">Quotes</NavLink></li>
                 {/* <li><a href="./quotes">Quotes</a></li> */}

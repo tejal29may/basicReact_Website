@@ -2,12 +2,11 @@
     font-family: sans-serif;
 }
 .active{
-    color: rgb(59 130 246);
-    color: aqua;
-    /* background-color: rgb(59 130 246); */
-    /* padding: 10px 15px; */
-    border-radius: 10px;
+    background-color: rgb(59 130 246);
+    padding: 7px 10px;
+    border-radius: 8px;
 }
+    
 .mainDiv{
     display: flex;
     justify-content: space-around;
