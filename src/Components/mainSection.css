@@ -93,17 +93,25 @@ position: relative;
 .secondSection .right button:hover{
     background-color: white;
 }
-
-@media screen and (max-width:450px) {
+.home{
+    width: 100%;
+}
+.thirdSection{
+    width: 320px;
+}
+@media screen and (max-width:480px) {
+    body{
+        overflow-x: hidden;
+    }
     .textArea{
-        width: 320px;
-        height: 70%;
+        width: 250px;
+        height: 100%;
         
         position: absolute;
-        /* margin-top: 9%;
+        margin-top: 9%;
         margin-left: 10%;
-        padding-top: 6%; */
-        margin: 3% auto;
+        padding-top: 6%;
+        
     }
     .secondSection{
         display: flex;
@@ -113,6 +121,7 @@ position: relative;
         padding: 32px;
         margin-top: 60px;
         margin-bottom: 5%;
+        width: 100%;
     }
     .secondSection .left img{
         height: 100%;
@@ -134,10 +143,15 @@ position: relative;
         .thirdSection{
             display: flex;
             flex-direction: column;
-            width: 320px;
+            width: 300px;
+            /* display: none; */
+            /* overflow-x: hidden; */
         }
         .thirdSection div{
             width: 300px;
+            /* width: 100%; */
+            margin: 2px auto;
+            /* display: none; */
         }
         .inputField{
             display: flex;
@@ -162,5 +176,13 @@ position: relative;
             }
             .buttons button{
                 width: 100%;
+            }
+            .main_section{
+              
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100%;
+            
             }
     }
