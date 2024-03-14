@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="MainContainer">
-      <BrowserRouter>
+     
        <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/Quotes" element={<Quotes />} />
@@ -21,7 +21,7 @@ function App() {
           
           
         </Routes>
-        </BrowserRouter>
+       
     </div>
   
    
