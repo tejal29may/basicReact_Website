@@ -93,9 +93,7 @@ position: relative;
 .secondSection .right button:hover{
     background-color: white;
 }
-.home{
-    width: 100%;
-}
+
 .thirdSection{
     width: 320px;
 }
@@ -104,7 +102,7 @@ position: relative;
         overflow-x: hidden;
     }
     .textArea{
-        width: 250px;
+        width: 80%;
         height: 100%;
         
         position: absolute;
