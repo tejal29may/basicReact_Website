@@ -1,3 +1,5 @@
+## Hosted Link : https://65f9cb9326355b08fc39c0d9--elaborate-malabi-dba577.netlify.app/
+
 ##Hosted Link For Home page : https://react-assignment-vyru.vercel.app/
 <br>
 ##Hosted Link for quotes Page : http://localhost:5173/quotes
